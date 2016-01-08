@@ -4,6 +4,19 @@ body {
 	background-color: #fff8f3;
 }
 
+.bg {
+  position: fixed; 
+  height: 100%;
+}
+#bg img {
+  position: absolute; 
+  top: 0; 
+  left: 0; 
+  right: 0; 
+  bottom: 0; 
+  margin: auto; 
+}
+
 .navbar-inverse .navbar-brand {
     color: #fff;
 	font-family: Asset; 
@@ -15,6 +28,7 @@ margin: 7px 7px 0px 7px;
 
 }
 
+
 .form-control {
 border-bottom-left-radius: 12px; 
 border-bottom-right-radius: 12px; 
@@ -24,7 +38,10 @@ height: 24px;
 font-size: 14px; 
 padding-top: 5px; 
 padding-bottom: 5px; 
+float: right;
+block: inline ; 
 }
+
 
 .btn, .btn-primary {
 border-bottom-left-radius: 12px; 
@@ -42,8 +59,8 @@ border-color: transparent;
 }
 
 .panel-default>.panel-heading {
-text-align: center; 
-font-size: 18px; 
+text-align: center;
+font-size: 22px; 
 font-weight: bold; 
 background-color: rgba(0, 0, 0, 0.1);
 border-color: transparent;
@@ -109,6 +126,12 @@ width: 60px;
 height: 60px; 
 }
 
+.button-plus {
+font-size: 90px; 
+padding-top: 12px; 
+}
+
+
 .info {
 color: #000055; 
 }
@@ -120,3 +143,35 @@ color: #550000;
 .success {
 color: #005500; 
 }
+
+
+/*Anpassungen für CreateEvent*/
+
+#panel-create-ev{
+max-width: 100%; 
+margin-top: 0px; 
+}
+
+
+#create-ev-head{
+text-align: left; 
+}
+
+#img-edit{
+width: 30px; 
+padding-top: 8px; 
+color: #000; 
+}
+
+#event-description, #location-map {
+max-width: 100%; 
+}
+
+#location-map {
+margin-top: 0px; 
+}
+
+#detail-container {
+background-image: url(abstract.jpg);
+margin-bottom: 20px; 
+ }
