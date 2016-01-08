@@ -18,3 +18,8 @@ CSS Arbeitsdatei: page.css;
 geringe Änderungen im HTML: ID's eingefügt, Font eingebunden, App-Name geändert wg. Länge; 
 
 ->Ordner Design: Indesign Dateien hinzugefügt
+
+
+Stand 09.01.2016
+-->->Ordner Projektdateien: 
+weitere CSS Anpassungen: Startseite, Eventübersicht; Event erstellen, Event Detailansicht
