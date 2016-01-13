@@ -1,3 +1,177 @@
+/*Anpassungen für Startseite */
 body { 
-	padding-top: 70px; 
+	font-family: Yanone Kaffeesatz; 
+	background-color: #fff8f3;
 }
+
+.bg {
+  position: fixed; 
+  height: 100%;
+}
+#bg img {
+  position: absolute; 
+  top: 0; 
+  left: 0; 
+  right: 0; 
+  bottom: 0; 
+  margin: auto; 
+}
+
+.navbar-inverse .navbar-brand {
+    color: #fff;
+	font-family: Asset; 
+}
+
+
+.form-group, .btn-default {
+margin: 7px 7px 0px 7px;  
+
+}
+
+
+.form-control {
+border-bottom-left-radius: 12px; 
+border-bottom-right-radius: 12px; 
+border-top-left-radius: 12px; 
+border-top-right-radius: 12px; 
+height: 24px;
+font-size: 14px; 
+padding-top: 5px; 
+padding-bottom: 5px; 
+float: right;
+block: inline ; 
+}
+
+
+.btn, .btn-primary {
+border-bottom-left-radius: 12px; 
+border-bottom-right-radius: 12px; 
+border-top-left-radius: 12px; 
+border-top-right-radius: 12px;
+height: 24px;
+font-size: 14px; 
+line-height: 14px; 
+ padding-top: 5px; 
+padding-bottom: 5px;
+background-color: #ffc5ab; 
+color: #000;
+border-color: transparent;
+}
+
+.panel-default>.panel-heading {
+text-align: center;
+font-size: 22px; 
+font-weight: bold; 
+background-color: rgba(0, 0, 0, 0.1);
+border-color: transparent;
+color: #fff; 
+
+} 
+
+.panel-default {
+	font-size: 18px; 
+    border-color: none;
+	color: #fff; 
+    max-width: 450px;
+    margin-left: auto;
+    margin-right: auto;
+	background-color: rgba(0, 0, 0, 0.6);
+	border-color: transparent;
+	margin-top: 160px; 
+
+}
+
+.form-horizontal .control-label {
+    padding-top: 0px;
+    margin-bottom: 5px;
+    text-align: right;
+}
+
+.panel-default>.panel-footer {
+	background-color: rgba(0, 0, 0, 0.1);
+	text-align: center; 
+	border-color: transparent;
+}
+
+/*Anpassungen für Index*/
+#list {
+    max-width: 100%; 
+	margin-top: -10px; 
+
+}
+
+h1, p {
+	background-color: #222; 
+	color: #fff; 
+	padding: 10px; 
+
+}
+
+h1 {
+	margin-top: 100px; 
+	margin-bottom: 0px;
+}
+
+
+.page-header {
+border: 0px; 
+margin: 0; 
+padding: 0px; 
+width: 100%; 
+}
+
+.pull-right {
+border-radius: 100%;
+width: 60px; 
+height: 60px; 
+}
+
+.button-plus {
+font-size: 90px; 
+padding-top: 12px; 
+}
+
+
+.info {
+color: #000055; 
+}
+
+.danger {
+color: #550000; 
+}
+
+.success {
+color: #005500; 
+}
+
+
+/*Anpassungen für CreateEvent*/
+
+#panel-create-ev{
+max-width: 100%; 
+margin-top: 0px; 
+}
+
+
+#create-ev-head{
+text-align: left; 
+}
+
+#img-edit{
+width: 30px; 
+padding-top: 8px; 
+color: #000; 
+}
+
+#event-description, #location-map {
+max-width: 100%; 
+}
+
+#location-map {
+margin-top: 0px; 
+}
+
+#detail-container {
+background-image: url(abstract.jpg);
+margin-bottom: 20px; 
+ }
